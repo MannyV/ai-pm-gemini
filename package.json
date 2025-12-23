@@ -1,0 +1,26 @@
+{
+  "name": "ai-pm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MannyV/ai-pm.git"
+  },
+  "keywords": ["ai", "product-management", "brd", "automation", "claude"],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MannyV/ai-pm/issues"
+  },
+  "homepage": "https://github.com/MannyV/ai-pm#readme",
+  "description": "AI-powered product management workspace with BRD generation, research synthesis, and implementation agents",
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
