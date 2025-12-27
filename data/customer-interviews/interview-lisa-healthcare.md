@@ -12,7 +12,7 @@
 
 **Interviewer:** What's your assessment so far?
 
-**Lisa:** The back-end efficiency gains have been remarkable. Our benefits verification process went from nearly an hour per patient down to under 20 minutes. That said, we're bumping up against some serious limitations that are preventing us from expanding usage.
+**Lisa:** The back-end efficiency gains have been significant. Our benefits verification process went from nearly an hour per patient down to under 20 minutes. That said, we're bumping up against some serious limitations that are preventing us from expanding usage.
 
 **Interviewer:** What kinds of limitations?
 
