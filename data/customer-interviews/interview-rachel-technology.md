@@ -66,3 +66,10 @@
 
 **Rachel:** My pleasure! Really excited about the platform's trajectory. Don't hesitate to contact me for follow-up questions or additional feedback.
 
+## Key Takeaways
+
+1. **Mobile Accessibility Gap:** Field personnel are restricted by the lack of a native mobile app, leading to productivity loss and reliance on office-based staff for real-time adjustments.
+2. **Steep Onboarding Curve:** New hires take ~4 weeks to become proficient; "starter templates" for common patterns (like approval flows) would accelerate time-to-productivity to ~10 days.
+3. **From Data to Insights:** There is a high demand for "insight generation" (identifying process bottlenecks and failure patterns) rather than just raw completion metrics.
+4. **Significant Efficiency Gains:** Despite limitations, the platform reduced the client onboarding cycle from 3 weeks to 6 days by introducing structure and automatic follow-ups.
+5. **Pattern-Based Building:** 85% of workflows follow predictable skeletons; implementing a template library would eliminate redundant "from scratch" development.
