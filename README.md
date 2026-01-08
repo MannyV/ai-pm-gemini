@@ -3,7 +3,7 @@
 > **An AI-powered workspace that transforms product management workflows from 12+ hour processes into 20-minute automated sequences through multi-agent orchestration.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Claude Code](https://img.shields.io/badge/Powered%20by-Claude%20Code-purple)](https://claude.com/code)
+[![Gemini](https://img.shields.io/badge/Powered%20by-Gemini-blue)](https://gemini.google.com/auth)
 
 ---
 
@@ -94,16 +94,16 @@ We measure success by **time saved** and **output quality**:
 
 ### System Overview
 
-AI PM implements a **multi-agent orchestration architecture** where specialized AI agents collaborate on complex PM workflows. Each agent is a Claude instance fine-tuned for specific domain expertise (research synthesis, technical planning, design review, etc.).
+AI PM implements a **multi-agent orchestration architecture** where specialized AI agents collaborate on complex PM workflows. Each agent is a Gemini instance fine-tuned for specific domain expertise (research synthesis, technical planning, design review, etc.).
 
 ```mermaid
 graph TB
     User[Product Manager] -->|Slash Commands or Direct Requests| Router[Intelligent Router]
 
-    Router --> Research[Research Agent<br/>Sonnet 4.5]
-    Router --> Planning[Planning Agent<br/>Opus 4.5]
-    Router --> Design[Design Agent<br/>Opus 4.5]
-    Router --> Frontend[Frontend Dev<br/>Opus 4.5]
+    Router --> Research[Research Agent<br/>Gemini 2.5 Flash]
+    Router --> Planning[Planning Agent<br/>Gemini 2.5 Pro]
+    Router --> Design[Design Agent<br/>Gemini 2.5 Pro]
+    Router --> Frontend[Frontend Dev<br/>Gemini 2.5 Pro]
 
     Research -->|Pain Points Report| Knowledge[Knowledge Base]
     Planning -->|BRD + Task Assignments| Knowledge
@@ -115,10 +115,10 @@ graph TB
     Planning --> MCP3[Google Drive MCP]
     Planning --> MCP4[Slack MCP]
 
-    Knowledge -->|Context| Review1[Engineer Review<br/>Opus 4.5]
-    Knowledge -->|Context| Review2[Designer Review<br/>Opus 4.5]
-    Knowledge -->|Context| Review3[Executive Review<br/>Opus 4.5]
-    Knowledge -->|Context| Review4[Legal Review<br/>Opus 4.5]
+    Knowledge -->|Context| Review1[Engineer Review<br/>Gemini 2.5 Pro]
+    Knowledge -->|Context| Review2[Designer Review<br/>Gemini 2.5 Pro]
+    Knowledge -->|Context| Review3[Executive Review<br/>Gemini 2.5 Pro]
+    Knowledge -->|Context| Review4[Legal Review<br/>Gemini 2.5 Pro]
 
     Review1 --> Output[Consolidated Output]
     Review2 --> Output
@@ -141,14 +141,14 @@ graph TB
 
 | Agent | Model | Expertise | Key Tools | Output |
 |-------|-------|-----------|-----------|--------|
-| **research-synthesizer** | Sonnet 4.5 | Pain point analysis, community research | Perplexity MCP, Reddit MCP | 400-500 word pain points report |
-| **planning-brd-agent** | Opus 4.5 | Requirements engineering, dependency analysis | File ops, git integration | Comprehensive BRD + task assignments |
-| **ui-designer** | Opus 4.5 | Design systems, UX patterns, trends | WebSearch, WebFetch | Design specifications + mockups |
-| **frontend-developer** | Opus 4.5 | React/Vue/Angular, state management, performance | Full development tools | Working implementation |
-| **engineer-review-agent** | Opus 4.5 | Architecture, security, scalability | Read, Grep, Glob | Technical assessment (X/10) |
-| **designer-review-agent** | Opus 4.5 | UX, accessibility, design systems | Read, Grep | UX assessment (X/10) |
-| **executive-review-agent** | Opus 4.5 | ROI, market opportunity, strategy | Read, WebSearch | Business value assessment |
-| **legal-advisor** | Opus 4.5 | Compliance, RFPs, enterprise contracts | Full suite + WebSearch | Legal frameworks + compliance docs |
+| **research-synthesizer** | Gemini 2.5 Flash | Pain point analysis, community research | Perplexity MCP, Reddit MCP | 400-500 word pain points report |
+| **planning-brd-agent** | Gemini 2.5 Pro | Requirements engineering, dependency analysis | File ops, git integration | Comprehensive BRD + task assignments |
+| **ui-designer** | Gemini 2.5 Pro | Design systems, UX patterns, trends | WebSearch, WebFetch | Design specifications + mockups |
+| **frontend-developer** | Gemini 2.5 Pro | React/Vue/Angular, state management, performance | Full development tools | Working implementation |
+| **engineer-review-agent** | Gemini 2.5 Pro | Architecture, security, scalability | Read, Grep, Glob | Technical assessment (X/10) |
+| **designer-review-agent** | Gemini 2.5 Pro | UX, accessibility, design systems | Read, Grep | UX assessment (X/10) |
+| **executive-review-agent** | Gemini 2.5 Pro | ROI, market opportunity, strategy | Read, WebSearch | Business value assessment |
+| **legal-advisor** | Gemini 2.5 Pro | Compliance, RFPs, enterprise contracts | Full suite + WebSearch | Legal frameworks + compliance docs |
 
 ### Data Flow: Research to Requirements Pipeline
 
@@ -274,8 +274,8 @@ graph LR
 ### Technology Stack
 
 **AI Layer:**
-- Claude Opus 4.5 (complex reasoning, architecture design)
-- Claude Sonnet 4.5 (speed-optimized tasks)
+- Gemini 2.5 Pro (complex reasoning, architecture design)
+- Gemini 2.5 Flash (speed-optimized tasks)
 - OpenAI Realtime API (voice workflow demos)
 
 **Development:**
@@ -319,11 +319,11 @@ Deploying AI in production PM workflows introduces three fundamental risks:
 
 **Agent-Specific Model Assignment:**
 ```
-Complex Reasoning Tasks (BRD generation, review) → Opus 4.5
+Complex Reasoning Tasks (BRD generation, review) → Gemini 2.5 Pro
 - Accepts longer latency (30-60s) for higher quality
 - Used when output quality > speed
 
-Speed-Critical Tasks (research synthesis) → Sonnet 4.5
+Speed-Critical Tasks (research synthesis) → Gemini 2.5 Flash
 - Sub-10s response times for rapid iteration
 - Used when speed > marginal quality gains
 ```
@@ -361,16 +361,16 @@ Perceived wait time reduces by 40% with progress transparency.
 
 #### **Future Optimization Roadmap**
 
-**Q2 2025: Caching Layer**
+**Q2 2026: Caching Layer**
 - Cache common research queries (e.g., "mobile workflow pain points")
 - 80% of research queries repeat within 30 days
 - Target: 8 min → 30 sec for cached queries
 
-**Q3 2025: Incremental Generation**
+**Q3 2026: Incremental Generation**
 - Stream BRD sections as they're generated (don't wait for full completion)
 - Target: First actionable output in 2 minutes, full BRD in 10 minutes
 
-**Q4 2025: Predictive Pre-Generation**
+**Q4 2026: Predictive Pre-Generation**
 - Monitor customer interview uploads → auto-trigger research synthesis
 - BRDs ready before PM requests them
 - Target: 0 perceived latency for common workflows
@@ -616,17 +616,17 @@ SLA: Detection → Containment within 15 minutes
 
 #### **Future Security Roadmap**
 
-**Q2 2025: On-Premise Deployment Option**
+**Q2 2026: On-Premise Deployment Option**
 - Self-hosted LLMs (Llama 3, Mistral) for customers with strict data residency requirements
 - 100% data stays within customer infrastructure
 - Target: FedRAMP compliance for government customers
 
-**Q3 2025: Differential Privacy**
+**Q3 2026: Differential Privacy**
 - Add noise to aggregated metrics before AI processing
 - Prevent individual customer identification in research synthesis
 - Target: k-anonymity ≥ 5 for all analytics
 
-**Q4 2025: Homomorphic Encryption**
+**Q4 2026: Homomorphic Encryption**
 - AI processing on encrypted data (no decryption required)
 - Zero-knowledge proofs for compliance validation
 - Target: Process healthcare data without HIPAA risk
@@ -641,7 +641,7 @@ SLA: Detection → Containment within 15 minutes
 
 - **Baseline (manual):** 12-17 hours over 3-5 days
 - **Current (AI PM):** 20-35 minutes same day
-- **Target (Q4 2025):** <10 minutes with caching + predictive generation
+- **Target (Q4 2026):** <10 minutes with caching + predictive generation
 
 ### Secondary Metrics
 
@@ -656,9 +656,9 @@ SLA: Detection → Containment within 15 minutes
 - Dependency analysis coverage: 40% (manual) → 100% (AI, automatic critical path calculation)
 
 **Adoption Metrics:**
-- PMs using AI PM for >50% of workflows: Target 80% by Q3 2025
-- Features shipped with AI-generated BRDs: Target 60% by Q4 2025
-- PM satisfaction score (NPS): Target >50 by Q2 2025
+- PMs using AI PM for >50% of workflows: Target 80% by Q3 2026
+- Features shipped with AI-generated BRDs: Target 60% by Q4 2026
+- PM satisfaction score (NPS): Target >50 by Q2 2026
 
 **Business Impact:**
 - Time to market acceleration: Target 30% faster feature delivery
@@ -671,10 +671,10 @@ SLA: Detection → Containment within 15 minutes
 
 ### Prerequisites
 
-- Node.js 18+ (for Claude Code and tooling)
+- Node.js 18+ (for tooling)
 - Python 3.8+ (for transcript analysis)
 - Git (for version control)
-- Claude Code CLI (installation instructions: [claude.com/code](https://claude.com/code))
+- Gemini-powered Agent CLI
 
 ### Installation
 
@@ -699,7 +699,7 @@ SLA: Detection → Containment within 15 minutes
    npm install -g @perplexity/mcp-server
    npm install -g @reddit/mcp-server
 
-   # Configure in ~/.claude.json (see docs/mcp-setup.md)
+   # Configure in ~/.gemini.json (see docs/mcp-setup.md)
    ```
 
 4. **Set up business context** (customize for your company):
@@ -712,10 +712,10 @@ SLA: Detection → Containment within 15 minutes
 
 **Research Synthesis:**
 ```bash
-# Launch Claude Code
-claude
+# Launch the AI Agent
+gemini
 
-# In Claude Code, use the research agent
+# In Gemini PM, use the research agent
 "Use research-synthesizer to analyze pain points for mobile workflow editing"
 
 # Output: data/research/pain_points_mobile_workflows.md
@@ -729,7 +729,7 @@ claude
 # Or invoke directly
 "Create a BRD for real-time collaboration features based on the pain points research"
 
-# Output: docs/brds/brd_realtime_collab_20250223.md
+# Output: docs/brds/brd_realtime_collab_20260223.md
 ```
 
 **Multi-Agent Review:**
@@ -743,7 +743,7 @@ claude
 
 ```
 ai-pm/
-├── .claude/
+├── .gemini/
 │   ├── agents/              # 8 specialized AI agents
 │   ├── commands/            # 5 slash commands for quick workflows
 │   ├── skills/              # PDF generation skill
@@ -792,10 +792,10 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## 🙏 Acknowledgments
 
-Rebuilt thanks to amazing work by Carl Vellotti with [Claude Code](https://claude.com/code) by Anthropic.
+Rebuilt thanks to amazing work by Carl Vellotti.
 
 Powered by:
-- Claude Opus 4.5 & Sonnet 4.5 (AI reasoning engines)
+- Gemini 2.5 Pro & 1.5 Flash (AI reasoning engines)
 - Model Context Protocol (MCP ecosystem)
 - Perplexity API (research discovery)
 - Reddit API (community data extraction)

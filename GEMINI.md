@@ -1,17 +1,17 @@
-# CLAUDE.md
+# GEMINI.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Gemini Agents when working with code in this repository.
 
 ## Project Overview
 
-This is a demo environment for showcasing Claude Code capabilities to product managers. The repository contains example data, custom agents, slash commands, and workflows demonstrating end-to-end product management tasks from research synthesis to BRD creation and implementation prototyping.
+This is a demo environment for showcasing Gemini capabilities to product managers. The repository contains example data, custom agents, slash commands, and workflows demonstrating end-to-end product management tasks from research synthesis to BRD creation and implementation prototyping.
 
 ## Repository Architecture
 
 ### Directory Structure
 ```
-.claude/
-├── agents/              # Custom Claude Code agents
+.gemini/
+├── agents/              # Custom Gemini agents
 │   ├── planning-brd-agent.md        # BRD generation agent
 │   ├── research-synthesizer.md      # Research & pain point synthesis
 │   ├── frontend-developer.md        # Frontend implementation
@@ -33,7 +33,7 @@ data/
 └── meeting-transcripts/             # Meeting notes for processing
 
 transcript_summarizer_code/          # YouTube transcript summarizer tool
-smartphone-specs-2025/               # Example research data
+smartphone-specs-2026/               # Example research data
 ```
 
 ### Key Context Files
@@ -51,7 +51,7 @@ smartphone-specs-2025/               # Example research data
 - `/get-time` - Get current timestamp
 
 ### Available Agents
-Use `claude dev` to launch agents or reference them in prompts:
+Use `gemini dev` to launch agents or reference them in prompts:
 
 **Planning & Documentation:**
 - `planning-brd-agent` - Creates comprehensive BRDs with technical specifications, user stories, and task breakdowns

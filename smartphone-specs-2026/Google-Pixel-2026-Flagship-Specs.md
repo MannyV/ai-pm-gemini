@@ -134,7 +134,7 @@
 
 ---
 
-## Google Pixel 10 Series (Upcoming Flagship - 2025)
+## Google Pixel 10 Series (Upcoming Flagship - 2026)
 
 ### Model Lineup
 - **Pixel 10**
@@ -143,10 +143,10 @@
 - **Pixel 10 Pro Fold**
 
 ### Release Information
-- **Announcement**: August 20, 2025
-- **Release Date**: August 28, 2025 (Standard models)
-- **Pixel 10 Pro Fold**: October 9, 2025
-- **Pre-orders**: Started August 20, 2025
+- **Announcement**: August 20, 2026
+- **Release Date**: August 28, 2026 (Standard models)
+- **Pixel 10 Pro Fold**: October 9, 2026
+- **Pre-orders**: Started August 20, 2026
 
 ### Processor & Performance
 

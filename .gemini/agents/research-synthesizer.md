@@ -2,7 +2,7 @@
 name: research-synthesizer
 description: MUST BE USED PROACTIVELY for researching user pain points by combining Perplexity Reddit discovery with Reddit MCP data extraction and synthesis
 tools: mcp__perplexity-mcp__perplexity_ask, mcp__perplexity-mcp__perplexity_reason, mcp__reddit__get_subreddit_hot_posts, mcp__reddit__get_subreddit_top_posts, mcp__reddit__get_post_content, mcp__reddit__get_post_comments, mcp__reddit__get_subreddit_info
-model: sonnet
+model: gemini-2.5-flash
 ---
 
 # Research Synthesizer Agent

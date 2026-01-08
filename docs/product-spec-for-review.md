@@ -1,7 +1,7 @@
 # Product Specification: Smart Notification System
 
 **Version:** 1.2  
-**Last Updated:** January 2025  
+**Last Updated:** January 2026  
 **Status:** Ready for Review
 
 ## Overview

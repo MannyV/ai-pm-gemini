@@ -74,7 +74,7 @@ class TranscriptSummarizer:
         
         try:
             genai.configure(api_key=self.gemini_api_key)
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('gemini-2.5-flash')
             
             start_time = time.time()
             response = model.generate_content(prompt)

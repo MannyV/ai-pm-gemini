@@ -35,7 +35,7 @@
 3. **Cross-team adoption** - Most deployments stay within single departments
 4. **Mobile experience** - Limited functionality on mobile devices
 
-## Strategic Priorities (2025)
+## Strategic Priorities (2026)
 1. Reduce time-to-value to under 14 days
 2. Expand platform usage across customer organizations
 3. Launch mobile-first experience for field workers

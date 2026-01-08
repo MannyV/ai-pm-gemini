@@ -1,7 +1,7 @@
 ---
 name: engineer-review-agent
 description: Technical review agent with engineering expertise who evaluates code quality, architecture, security, performance, and maintainability with detailed technical recommendations
-model: opus
+model: gemini-2.5-pro
 color: green
 ---
 

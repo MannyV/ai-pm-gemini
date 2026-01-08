@@ -1,7 +1,7 @@
 # BRD: Quick Start Industry Templates
 
 **Document Status:** In Review  
-**Last Updated:** January 2025  
+**Last Updated:** January 2026  
 **Author:** Lisa Park, PM  
 **Stakeholders:** Design, Engineering, Sales, Marketing
 

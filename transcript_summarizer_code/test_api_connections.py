@@ -20,7 +20,7 @@ def test_gemini():
     
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         
         start = time.time()
         response = model.generate_content("Say 'Hello, I'm working!' in 5 words or less.")

@@ -1,9 +1,9 @@
 # BRD: Voice Workflow Builder Prototype
 
 **Document Status:** Draft  
-**Last Updated:** January 2025  
+**Last Updated:** January 2026  
 **Author:** Demo Team  
-**Purpose:** Rapid prototype for Claude Code capabilities demo
+**Purpose:** Rapid prototype for Gemini capabilities demo
 
 ## Overview
 

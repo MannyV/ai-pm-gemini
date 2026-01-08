@@ -102,7 +102,7 @@ pandoc data/customer-interviews/summary.md \
 Use the included `generate_pdf.py` script for easy conversions:
 
 ```bash
-python .claude/skills/pdf-generation/scripts/generate_pdf.py input.md [output.pdf]
+python .gemini/skills/pdf-generation/scripts/generate_pdf.py input.md [output.pdf]
 ```
 
 ## Best Practices

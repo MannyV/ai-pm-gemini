@@ -1,13 +1,13 @@
-# Samsung Galaxy S25 Series Complete Technical Specifications (2025)
+# Samsung Galaxy S26 Series Complete Technical Specifications (2026)
 
 ## Release Information
-- **Announcement Date**: January 22, 2025 at Galaxy Unpacked (San Jose, California)
-- **Pre-order Start**: January 22, 2025
-- **General Availability**: February 7, 2025
+- **Announcement Date**: January 22, 2026 at Galaxy Unpacked (San Jose, California)
+- **Pre-order Start**: January 22, 2026
+- **General Availability**: February 7, 2026
 
 ---
 
-## Samsung Galaxy S25 Ultra Specifications
+## Samsung Galaxy S26 Ultra Specifications
 
 ### Display Technology
 - **Size**: 6.9-inch Dynamic LTPO AMOLED 2X
@@ -69,7 +69,7 @@
 ### Software
 - **OS**: Android 15 with One UI 7
 - **Update Promise**: 7 major OS upgrades
-- **Galaxy AI**: Free until end of 2025
+- **Galaxy AI**: Free until end of 2026
 - **AI Features**: Writing Assist, Drawing Assist, Audio Eraser, Now Brief, multimodal Sketch-to-Image
 
 ### Special Features
@@ -81,7 +81,7 @@
 
 ---
 
-## Samsung Galaxy S25+ Specifications
+## Samsung Galaxy S26+ Specifications
 
 ### Display Technology
 - **Size**: 6.7-inch Dynamic AMOLED 2X
@@ -128,7 +128,7 @@
 
 ---
 
-## Samsung Galaxy S25 Specifications
+## Samsung Galaxy S26 Specifications
 
 ### Display Technology
 - **Size**: 6.2-inch Dynamic AMOLED 2X
@@ -156,16 +156,16 @@
 
 ## Pricing (USD)
 
-### Galaxy S25 Ultra
+### Galaxy S26 Ultra
 - **256GB/12GB**: $1,299
 - **512GB/12GB**: $1,419
 - **1TB/16GB**: $1,659
 
-### Galaxy S25+
+### Galaxy S26+
 - **256GB**: $999
 - **512GB**: Higher price (varies by carrier)
 
-### Galaxy S25
+### Galaxy S26
 - **128GB**: $799
 - **256GB**: Higher price (varies by carrier)
 
@@ -176,7 +176,7 @@
 ## Software & AI Features
 
 ### One UI 7 (Android 15)
-- **Official Rollout**: Started April 7, 2025
+- **Official Rollout**: Started April 7, 2026
 - **Design**: Bold new interface built for AI interaction
 - **Update Promise**: 7 major Android updates
 
@@ -185,7 +185,7 @@
 - **Drawing Assist**: Multimodal creation with text prompts, images, sketches
 - **Audio Eraser**: Advanced video sound editing
 - **Now Bar**: Real-time lock screen updates
-- **Now Brief**: Personalized AI briefings (S25 series exclusive)
+- **Now Brief**: Personalized AI briefings (S26 series exclusive)
 - **AI Select**: Contextual recommendations
 - **Enhanced Google Gemini**: Deeper system integration
 
@@ -198,9 +198,9 @@
 ---
 
 ## Market Availability
-- **Global Launch**: February 7, 2025
+- **Global Launch**: February 7, 2026
 - **Pre-order Channels**: Samsung.com, Amazon, Best Buy, major carriers
 - **Regional Variations**: Storage options and RAM configurations vary by market
-- **Galaxy AI**: Free access until end of 2025
+- **Galaxy AI**: Free access until end of 2026
 
-This comprehensive specification document covers all key technical aspects of Samsung's 2025 flagship smartphone lineup, providing detailed information suitable for technical documentation, product comparisons, and market analysis.
+This comprehensive specification document covers all key technical aspects of Samsung's 2026 flagship smartphone lineup, providing detailed information suitable for technical documentation, product comparisons, and market analysis.

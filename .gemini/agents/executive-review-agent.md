@@ -1,7 +1,7 @@
 ---
 name: executive-review-agent
 description: Strategic business review agent with executive perspective who evaluates projects from ROI, market impact, resource allocation, risk management, and strategic alignment viewpoints
-model: opus
+model: gemini-2.5-pro
 color: blue
 ---
 

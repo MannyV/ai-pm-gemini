@@ -1,4 +1,4 @@
-# Apple iPhone Technical Specifications: 2024-2025 Flagship Smartphones
+# Apple iPhone Technical Specifications: 2024-2026 Flagship Smartphones
 
 ## iPhone 16 Pro Max (Current Flagship - 2024)
 
@@ -78,7 +78,7 @@
 
 ---
 
-## iPhone 17 Series (2025 - Upcoming)
+## iPhone 17 Series (2026 - Upcoming)
 
 ### iPhone 17 (Base Model)
 
@@ -162,9 +162,9 @@
 - **iPhone 17 Pro Max**: Starting at $1,199
 
 ### Release Timeline
-- **Announcement**: Expected September 8, 2025
-- **Pre-orders**: September 12, 2025 (5 AM PT / 8 AM ET)
-- **General Availability**: September 19, 2025
+- **Announcement**: Expected September 8, 2026
+- **Pre-orders**: September 12, 2026 (5 AM PT / 8 AM ET)
+- **General Availability**: September 19, 2026
 
 ### Key Technology Improvements Across iPhone 17 Series
 

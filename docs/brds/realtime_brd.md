@@ -2,8 +2,8 @@
 
 **Author:** Product Management
 **Status:** Draft
-**Created:** 2025-11-27
-**Target Release:** Q2 2025
+**Created:** 2026-11-27
+**Target Release:** Q2 2026
 
 ## Executive Summary
 Implementation of OpenAI's Realtime API (gpt-realtime) to enable speech-to-speech workflow creation and management, targeting 60% reduction in time-to-value and enabling mobile-first workflow building for field workers. The native speech processing eliminates traditional speech-to-text-to-speech latency while preserving conversational nuance.
@@ -51,7 +51,7 @@ Voice-activated troubleshooting and performance analysis:
 ### Technical Architecture
 
 #### API Integration Specifications
-- **Model**: gpt-realtime-2025-08-28 with function calling capabilities
+- **Model**: gpt-realtime-2026-08-28 with function calling capabilities
 - **Protocol**: WebSocket persistent connection for streaming audio I/O
 - **Latency Target**: <500ms round-trip for speech-to-speech interaction (p95)
 - **Audio Format**: 24kHz 16-bit PCM input/output
@@ -137,7 +137,7 @@ Mobile/Web Client → WebSocket Gateway → OpenAI Realtime API
 - Conversation context management with 10-turn history
 
 **Technical Requirements:**
-- EU data residency support for GDPR compliance (gpt-realtime-2025-08-28)
+- EU data residency support for GDPR compliance (gpt-realtime-2026-08-28)
 - End-to-end audio encryption (TLS 1.3 + AES-256 at-rest)
 - Session authentication via existing JWT infrastructure
 - Rate limiting: 50 concurrent sessions per enterprise account
@@ -176,7 +176,7 @@ Mobile/Web Client → WebSocket Gateway → OpenAI Realtime API
 - Estimated cost: $2,400/month base + $180/month per 100 concurrent sessions
 
 **OpenAI API Costs:**
-- gpt-realtime-2025-08-28: $0.06/minute audio input, $0.24/minute audio output
+- gpt-realtime-2026-08-28: $0.06/minute audio input, $0.24/minute audio output
 - Projected usage: 50,000 voice sessions/month at 8 minutes average
 - Estimated cost: $120,000/month (400,000 minutes @ blended $0.30/min)
 
@@ -303,14 +303,14 @@ Mobile/Web Client → WebSocket Gateway → OpenAI Realtime API
 - [Introducing gpt-realtime and Realtime API updates for production voice agents | OpenAI](https://openai.com/index/introducing-gpt-realtime/)
 - [Introducing the Realtime API | OpenAI](https://openai.com/index/introducing-the-realtime-api/)
 - [Realtime API Documentation](https://platform.openai.com/docs/guides/realtime)
-- [OpenAI's gpt-realtime Enables Production-Ready Voice Agents - InfoQ](https://www.infoq.com/news/2025/09/openai-gpt-realtime/)
+- [OpenAI's gpt-realtime Enables Production-Ready Voice Agents - InfoQ](https://www.infoq.com/news/2026/09/openai-gpt-realtime/)
 
 ### Competitive Analysis
-- **Zapier**: No voice interface (as of Nov 2025)
+- **Zapier**: No voice interface (as of Nov 2026)
 - **Workato**: Voice assistant in beta, text-to-speech only (no speech input)
 - **Make.com**: No voice capabilities announced
 
 ### Open Questions
 - [ ] Should we support voice-based approval actions? (Security implications)
-- [ ] Expand to phone/SIP integration for voice-triggered workflows? (Q3 2025 consideration)
+- [ ] Expand to phone/SIP integration for voice-triggered workflows? (Q3 2026 consideration)
 - [ ] Partnership with OpenAI for co-marketing of Realtime API use case?

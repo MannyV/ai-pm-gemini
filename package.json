@@ -12,7 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/MannyV/ai-pm.git"
   },
-  "keywords": ["ai", "product-management", "brd", "automation", "claude"],
+  "keywords": [
+    "ai",
+    "product-management",
+    "brd",
+    "automation",
+    "gemini"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {

@@ -1,13 +1,13 @@
-# CLAUDE.md Examples and Best Practices
+# GEMINI.md Examples and Best Practices
 
-This document showcases different CLAUDE.md configurations and use cases to help you understand how to effectively guide Claude Code in your projects.
+This document showcases different GEMINI.md configurations and use cases to help you understand how to effectively guide Gemini Code in your projects.
 
 ## Basic Structure Example
 
 ```markdown
-# CLAUDE.md
+# GEMINI.md
 
-This file provides guidance to Claude Code when working in this repository.
+This file provides guidance to Gemini Code when working in this repository.
 
 ## Project Overview
 Brief description of what this project does and its main purpose.
@@ -21,7 +21,7 @@ Brief description of what this project does and its main purpose.
 ## Example 1: Web Application Project
 
 ```markdown
-# CLAUDE.md
+# GEMINI.md
 
 ## Project Overview
 This is a React-based web application using TypeScript and Material-UI.
@@ -53,7 +53,7 @@ This is a React-based web application using TypeScript and Material-UI.
 ## Example 2: Data Science Project
 
 ```markdown
-# CLAUDE.md
+# GEMINI.md
 
 ## Project Context
 Machine learning pipeline for customer churn prediction.
@@ -85,7 +85,7 @@ Machine learning pipeline for customer churn prediction.
 ## Example 3: API Development
 
 ```markdown
-# CLAUDE.md
+# GEMINI.md
 
 ## Project Overview
 RESTful API built with Node.js and Express.
@@ -118,7 +118,7 @@ RESTful API built with Node.js and Express.
 ## Example 4: Documentation Project
 
 ```markdown
-# CLAUDE.md
+# GEMINI.md
 
 ## Purpose
 Technical documentation for StreamlineAI platform.
@@ -151,7 +151,7 @@ Technical documentation for StreamlineAI platform.
 ## Example 5: PM-Focused Project
 
 ```markdown
-# CLAUDE.md
+# GEMINI.md
 
 ## Context
 Product management workspace for feature planning and documentation.
@@ -184,7 +184,7 @@ Product management workspace for feature planning and documentation.
 ## Example 6: Personal Productivity
 
 ```markdown
-# CLAUDE.md
+# GEMINI.md
 
 ## Overview
 Personal note-taking and task management system.
@@ -267,7 +267,7 @@ Personal note-taking and task management system.
 - [ ] Accessibility standards met
 ```
 
-## Tips for Effective CLAUDE.md Files
+## Tips for Effective GEMINI.md Files
 
 1. **Start Simple**: Begin with basic rules and expand as needed
 2. **Be Consistent**: Use the same terminology throughout
@@ -275,9 +275,9 @@ Personal note-taking and task management system.
 4. **Team Input**: Gather feedback from all stakeholders
 5. **Examples Help**: Show good and bad examples
 6. **Prioritize**: Put most important rules first
-7. **Test It**: Verify Claude follows your guidance
+7. **Test It**: Verify Gemini follows your guidance
 
-## When to Update CLAUDE.md
+## When to Update GEMINI.md
 
 - New team members join
 - Project requirements change
@@ -286,4 +286,4 @@ Personal note-taking and task management system.
 - Workflow processes updated
 - Lessons learned from incidents
 
-Remember: CLAUDE.md is a living document that should evolve with your project's needs!
+Remember: GEMINI.md is a living document that should evolve with your project's needs!

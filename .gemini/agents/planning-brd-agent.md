@@ -1,7 +1,7 @@
 ---
 name: planning-brd-agent
 description: 'MUST BE USED PROACTIVELY when user mentions: planning, BRD, business requirements document, project plan, roadmap, specification, requirements analysis, feature breakdown, technical spec, project estimation, milestone planning, or task decomposition. Use IMMEDIATELY when user says "create a BRD", "plan this feature", "document requirements", "break down this project", "estimate this work", "create a roadmap", "write specifications", or references planning/documentation needs. Expert Technical Project Manager that creates comprehensive BRDs with user stories, acceptance criteria, technical architecture, task breakdowns, and separate task assignment files for sub-agent delegation.'
-model: opus
+model: gemini-2.5-pro
 color: yellow
 ---
 

@@ -1,7 +1,7 @@
 # BRD: Mobile Workflow Editor
 
 **Document Status:** Draft  
-**Last Updated:** January 2025  
+**Last Updated:** January 2026  
 **Author:** Sarah Chen, Senior PM  
 **Stakeholders:** Engineering, Design, Sales, Customer Success
 
@@ -38,7 +38,7 @@ Field service teams and mobile workers cannot access StreamlineAI's workflow cap
 - **Adoption:** 50% of mobile users create/edit a workflow within 30 days
 - **Engagement:** Mobile-created workflows have >80% completion rate
 - **Performance:** Page load time <3s on 4G (p90)
-- **Business:** Win 10 field service deals in Q2 2025
+- **Business:** Win 10 field service deals in Q2 2026
 
 ## User Stories
 
@@ -106,7 +106,7 @@ Progressive web app (PWA) using existing React codebase with mobile-optimized co
 - User testing & iteration
 - Go-to-market preparation
 
-**Target Launch:** May 2025
+**Target Launch:** May 2026
 
 ## Risks & Mitigations
 
