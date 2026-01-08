@@ -81,3 +81,10 @@
 
 **Lisa:** Healthcare is complicated, but the market opportunity is enormous. Every medical practice in the country faces these exact challenges. Execute well on healthcare features, and you'll revolutionize clinical operations. We're eager to collaborate - beta programs, design partnerships, whatever accelerates this vision.
 
+## Key Takeaways
+
+1. **Automated Audit Readiness:** Manual compilation of compliance data (HIPAA, access logs) is a major pain point; the platform needs "instant" audit report generation.
+2. **Native EMR Connectivity:** Friction from manual data transfer between systems like Epic/Cerner requires native, pre-configured healthcare connectors.
+3. **Medical-Specific Templates:** Implementation is slowed by building from scratch; expert-designed templates for registration and prescription management are essential.
+4. **Clinical UX Adaptation:** Busy medical staff (doctors/nurses) need role-specific, simplified interfaces and voice interaction capabilities to reduce training burden.
+5. **Shift to Patient Engagement:** Significant expansion opportunity in patient-facing features like digital intake and appointment prep tracking.
