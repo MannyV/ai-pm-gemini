@@ -276,7 +276,7 @@ graph LR
 **AI Layer:**
 - Gemini 2.5 Pro (complex reasoning, architecture design)
 - Gemini 2.5 Flash (speed-optimized tasks)
-- OpenAI Realtime API (voice workflow demos)
+- Gemini Multi-modal Live API (voice workflow demos)
 
 **Development:**
 - Node.js + TypeScript (frontend agent capabilities)
@@ -478,7 +478,7 @@ PM reviews critical sections:
 
 ### 3. Security & Data Privacy
 
-**Problem:** Sending customer interview transcripts, internal strategy docs, or proprietary code to external AI providers (Anthropic, OpenAI) exposes confidential information.
+**Problem:** Sending customer interview transcripts, internal strategy docs, or proprietary code to external AI providers (such as third-party model providers) exposes confidential information.
 
 #### **Mitigation Strategy: Data Classification + Selective Redaction**
 
@@ -580,7 +580,7 @@ Data Encryption:
 └─ End-to-end encryption for sensitive documents
 
 Vendor Management:
-├─ Anthropic SOC 2 compliance verified
+├─ Google Cloud Platform SOC 2 compliance verified
 ├─ Data Processing Agreement (DPA) in place
 └─ Subprocessor list maintained and reviewed quarterly
 ```
@@ -790,12 +790,12 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-## 🙏 Acknowledgments
+## 🙏 Credits
 
-Rebuilt thanks to amazing work by Carl Vellotti.
+Developed by the AI PM Engineering Team. Rebuilt thanks to amazing work from Carl Vellotti.
 
 Powered by:
-- Gemini 2.5 Pro & 1.5 Flash (AI reasoning engines)
+- Gemini 2.5 (AI reasoning engines)
 - Model Context Protocol (MCP ecosystem)
 - Perplexity API (research discovery)
 - Reddit API (community data extraction)

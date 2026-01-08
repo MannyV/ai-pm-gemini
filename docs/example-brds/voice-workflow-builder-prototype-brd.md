@@ -7,7 +7,7 @@
 
 ## Overview
 
-Build a minimal voice-driven interface that allows users to create automation workflows using natural speech. This prototype demonstrates GPT Realtime API integration for workflow automation use cases.
+Build a minimal voice-driven interface that allows users to create automation workflows using natural speech. This prototype demonstrates Gemini Multi-modal Live API integration for workflow automation use cases.
 
 ## Core Features
 
@@ -27,7 +27,7 @@ Build a minimal voice-driven interface that allows users to create automation wo
 ### 3. Interactive Conversation
 - Natural back-and-forth dialogue
 - System asks clarifying questions as needed
-- Voice responses processed through GPT Realtime API
+- Voice responses processed through Gemini Multi-modal Live API
 - Visual updates happen live during conversation
 
 ### 4. Final Workflow Display
@@ -52,16 +52,16 @@ Build a minimal voice-driven interface that allows users to create automation wo
 
 ## Technical Integration
 
-### GPT Realtime API
+### Gemini Multi-modal Live API
 - WebRTC connection for real-time speech
 - Session configuration for workflow context
 - Voice activity detection
 - Speech-to-workflow interpretation
-- CHATGPT_API_KEY configured in .env file
+- GEMINI_API_KEY configured in .env file
 
 ### Basic Tech Stack
 - HTML5 + vanilla JavaScript (keep it simple)
-- GPT Realtime API integration
+- Gemini Multi-modal Live API integration
 - Basic CSS for styling
 - No complex frameworks needed
 
@@ -76,7 +76,7 @@ Build a minimal voice-driven interface that allows users to create automation wo
 
 ### Technical Requirements
 - Voice input works reliably
-- GPT Realtime API integration functional
+- Gemini Multi-modal Live API integration functional
 - Responsive on desktop and mobile
 - No crashes or errors during demo
 
@@ -94,6 +94,6 @@ This is a prototype for demonstration purposes. Focus on:
 1. Clean, working voice interface
 2. Clear visual feedback
 3. Smooth user experience
-4. Reliable GPT Realtime integration
+4. Reliable Gemini Multi-modal Live integration
 
 Success = A working demo that shows the potential of voice-driven workflow creation.
