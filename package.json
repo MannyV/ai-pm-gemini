@@ -1,5 +1,5 @@
 {
-  "name": "ai-pm",
+  "name": "ai-pm-gemini",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MannyV/ai-pm.git"
+    "url": "git+https://github.com/MannyV/ai-pm-gemini.git"
   },
   "keywords": [
     "ai",
@@ -22,9 +22,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MannyV/ai-pm/issues"
+    "url": "https://github.com/MannyV/ai-pm-gemini/issues"
   },
-  "homepage": "https://github.com/MannyV/ai-pm#readme",
+  "homepage": "https://github.com/MannyV/ai-pm-gemini#readme",
   "description": "AI-powered product management workspace with BRD generation, research synthesis, and implementation agents",
   "dependencies": {
     "playwright": "^1.55.0"

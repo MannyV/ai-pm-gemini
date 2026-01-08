@@ -680,8 +680,8 @@ SLA: Detection → Containment within 15 minutes
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/MannyV/ai-pm.git
-   cd ai-pm
+   git clone https://github.com/MannyV/ai-pm-gemini.git
+   cd ai-pm-gemini
    ```
 
 2. **Install dependencies:**
@@ -742,7 +742,7 @@ gemini
 ### Project Structure
 
 ```
-ai-pm/
+ai-pm-gemini/
 ├── .gemini/
 │   ├── agents/              # 8 specialized AI agents
 │   ├── commands/            # 5 slash commands for quick workflows
@@ -804,9 +804,9 @@ Powered by:
 
 ## 📞 Support & Contact
 
-- **Issues:** [GitHub Issues](https://github.com/MannyV/ai-pm/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/MannyV/ai-pm/discussions)
-- **Documentation:** [Wiki](https://github.com/MannyV/ai-pm/wiki)
+- **Issues:** [GitHub Issues](https://github.com/MannyV/ai-pm-gemini/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/MannyV/ai-pm-gemini/discussions)
+- **Documentation:** [Wiki](https://github.com/MannyV/ai-pm-gemini/wiki)
 
 ---
 
