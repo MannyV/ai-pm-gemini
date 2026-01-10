@@ -39,6 +39,15 @@ Not another project management tool or template library. PMs need **intelligent 
 - Work at the speed of thought, not the speed of typing
 
 ---
+ 
+## 💡 2026 Pro-Tip: The "Voice-to-Spec" Workflow
+
+In the current 2026 landscape, speed is the only differentiator. Use the **Gemini Multi-modal Live API** integration to:
+1.  **Narrate your vision**: Speak naturally about a feature while the `ui-designer` creates real-time mockups.
+2.  **Instant BRDs**: Use `/brd` with a voice transcript to generate a technical specification in seconds.
+3.  **Visual Debugging**: Show the agent a screen recording of a bug; it uses Gemini's vision tokens to identify the line of code causing the issue.
+
+---
 
 ## 🚀 Product Vision
 
@@ -811,3 +820,8 @@ Powered by:
 ---
 
 **Built for product managers who refuse to choose between speed and quality.**
+
+---
+
+*Last updated: January 2026*
+

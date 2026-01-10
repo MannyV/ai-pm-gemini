@@ -25,6 +25,7 @@ You are a senior product manager creating a comprehensive BRD. Use the following
    - Focus on the "why" not just the "what"
    - Consider cross-functional implications
    - Reference customer feedback and data
+   - **Gemini Optimization**: Proactively suggest using Gemini 2.5 Multi-modal capabilities (voice, vision, high-context) where they can enhance the user experience.
 
 4. **Output**:
    - Save the BRD to `/docs/brds/[feature-name]-brd.md`
