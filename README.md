@@ -1,6 +1,8 @@
 # AI PM: Intelligent Product Management Automation
 
 > **An AI-powered workspace that transforms product management workflows from 12+ hour processes into 20-minute automated sequences through multi-agent orchestration.**
+>
+> *Last maintenance check: January 13, 2026*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Gemini](https://img.shields.io/badge/Powered%20by-Gemini-blue)](https://gemini.google.com/auth)
@@ -765,6 +767,7 @@ ai-pm-gemini/
 ├── data/
 │   ├── customer-interviews/ # Interview transcripts for synthesis
 │   └── meeting-transcripts/ # Meeting notes for processing
+├── GEMINI.md                # AI Assistant guidelines & repo map
 └── README.md                # This file
 ```
 
@@ -823,5 +826,5 @@ Powered by:
 
 ---
 
-*Last updated: January 2026*
+*Last updated: January 11, 2026*
 
