@@ -1,0 +1,13 @@
+🚀 *Voice-Enabled Workflow Builder is live!* 🎙️
+
+Build and manage automations entirely through natural speech. We've slashed time-to-value from 45 days to just 14!
+
+*Key Highlights:*
+- Speak your workflows into existence on Desktop & Mobile
+- Natural <500ms latency for real conversations
+- Hands-free optimization for field workers
+
+👉 *Try it now:* Tap the mic icon in your StreamlineAI dashboard.
+👉 *Learn more:* <https://docs.streamlineai.com/features/voice-builder>
+
+Congrats to the Echo Team! 👏 #product-update #ai-innovation
